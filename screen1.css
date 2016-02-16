@@ -1,5 +1,7 @@
+
+
 body { 
-  background: url(Norway_Sweden.jpg) no-repeat center center fixed; 
+  background: url(norway_sweden.jpg) no-repeat center center fixed; 
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,13 +9,11 @@ body {
 }
 
 
-
-
-
 h1{ background-color: rgba(213,213,213,0.85);
 font-size: 300%;
 color: black;
 font-family: 'Poly', serif;
+text-align: center;
 }
  
  form {

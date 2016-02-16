@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <title>Notifications</title>
-	 <link rel="stylesheet" href="screen.css">
+	 <link rel="stylesheet" href="screen1.css">
 	 <link href='https://fonts.googleapis.com/css?family=Poly' rel='stylesheet' type='text/css'>
 </head>
 
@@ -12,25 +12,24 @@
 
 <body>
 
-<h1><center> Sign up for trail condition updates!</center></h1>
+<h1>Sign up for trail condition updates!</h1>
 
 <form><center>
 
   <div>
-      <label>Email:
-        <input type="email" placeholder="Email:" />
-      </label>
-    </div>
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="Email:" name="email" />
+  </div>
   
-    <div>
-      <label>Phone Number
-        <input type="tel"  placeholder="Phone Number">
-      </label>
-    </div>
+  <div>
+  <label for="phone">Phone Number</label>
+  <input type="tel" id="phone"  placeholder="Phone Number" name="phone">
+  </div>
+    
 	
     <div>
-      <label>Where Do You Ride?</label>
-      <input id="checkbox1" type="checkbox"><label for="MN">MN</label>
+      <label for="checkbox2"> Where Do You Ride?</label>
+      <input id="checkbox2" type="checkbox"><label for="MN">MN</label>
       <input id="checkbox2" type="checkbox"><label for="WI">WI</label>	  
 	  <input id="checkbox2" type="checkbox"><label for="IL">IL</label>
 	  <input id="checkbox2" type="checkbox"><label for="IN">IN</label>
